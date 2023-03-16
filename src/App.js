@@ -9,10 +9,6 @@ function App() {
   return (
     <div className="container">
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/details/:coutryName" element={<Details />} />
-      </Routes>
     </div>
   );
 }
